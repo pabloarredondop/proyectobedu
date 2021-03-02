@@ -1,0 +1,57 @@
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: .5rem; 
+    margin-right:.5rem;
+    flex: 2;
+    border: 10px;
+    margin-top: 80px;
+}
+.carousel-container {
+    max-width: 80%;
+    margin: 1rem;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar {
+    position: top;
+}
+
+.log-in-container {
+    width: 200px; 
+    margin:20px;
+    }
+
+    .input-email {
+        max-width: 300px;
+    }
+
+    .input-pass {
+        max-width:  300px;
+    }
+    .Main-Title{
+        color:#008f39;
+    }
+
+    .main-text {
+        color: gray;
+    }
+
+    @media (min-width: 426px) {
+        
+        .main-body {
+            display: flex;
+            flex:2;
+            flex-direction: row-reverse;
+            align-items: center;
+            background-color: red;
+        }
+           
+        .log-in-container {
+            width: 350px;
+        }
+
+    }
